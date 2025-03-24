@@ -2,7 +2,7 @@
 
 ## AIGCIM Cimulator v1.0
 
-#### 当前版本可调的是WORDS BITS PC SCR DFF_STAGE
+#### 当前版本可调的是WORDS BITS PC SCR DFF_STAGE(输入和权重位宽暂不可调)
 #### 输出的性能指标基于weight全1，feature50% bit反转条件
 #### 请注意以下4个参数应该具有以下关系： 
 #### SCR = WORDS / (PC × WEIGHT_BW)
