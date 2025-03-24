@@ -3,7 +3,7 @@
 ## AIGCIM Cimulator v1.0
 
 #### 当前版本可调的是WORDS BITS PC SCR DFF_STAGE
-#### 输出的性能指标基于weight全1，feature50%反转条件
+#### 输出的性能指标基于weight全1，feature50% bit反转条件
 #### 请注意以下4个参数应该具有以下关系： 
 #### SCR = WORDS / (PC × WEIGHT_BW)
 #### WORDS = SCR × PC × WEIGHT_BW
@@ -19,3 +19,5 @@ SCR = SCR：存算比（Storage Computing Ratio）, SCR个Memcell对应一个计
 BPBW = BPBW：输入位并行位宽（Bit Parallel Bit Width）, CIM计算输入位并行位宽, 范围：1-INPUT_BW bit（INT仅支持1/2b）  
 DFF_STAGE = DFF_STAGE：流水线级数（Pipeline Stage）, CIM阵列内的流水线级数（0-4级）, 实际对应4'b0000-4'b1111, 最低位代表WAT流水线级, 范围：0-15  
 
+## 下载链接如下：
+## 链接: https://pan.baidu.com/s/1AwI4cx3-UWgrLZNqiFHJlg?pwd=CIAL 提取码: CIAL
