@@ -2,13 +2,13 @@
 
 ## AIGCIM Cimulator v1.0
 
-### 当前版本可调的是WORDS BITS PC SCR DFF_STAGE
-### 输出的性能指标基于weight全1，feature50%反转条件
-### 请注意以下4个参数应该具有以下关系： 
-### SCR = WORDS / (PC × WEIGHT_BW)
-### WORDS = SCR × PC × WEIGHT_BW
-### PC = WORDS / (SCR × WEIGHT_BW)
-### WEIGHT_BW = WORDS / (SCR × PC)
+#### 当前版本可调的是WORDS BITS PC SCR DFF_STAGE
+#### 输出的性能指标基于weight全1，feature50%反转条件
+#### 请注意以下4个参数应该具有以下关系： 
+#### SCR = WORDS / (PC × WEIGHT_BW)
+#### WORDS = SCR × PC × WEIGHT_BW
+#### PC = WORDS / (SCR × WEIGHT_BW)
+#### WEIGHT_BW = WORDS / (SCR × PC)
 
 WORDS = WORDS：字线（WL）, Memory阵列的行数, 内存大小等于 WORDS×BITS bit, 范围：128-4096  
 BITS = BITS：位线（BL）, Memory阵列的列数, 内存大小等于 WORDS×BITS bit, 等于CIM的累加长度, 范围：8-512  
